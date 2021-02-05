@@ -46,14 +46,14 @@
     <name>com1-frequency</name>
     <type>string</type>
     <format>COM1_FRQ=%s</format>
-    <node>/instrumentation/comm[0]/frequencies/selected-mhz-fmt</node>
+    <node>/instrumentation/comm[0]/frequencies/selected-mhz</node>
    </chunk>
-   <chunk>
+   <!--<chunk>
     <name>com1-frequency-real</name>
     <type>string</type>
     <format>COM1_FRQ=%s</format>
     <node>/instrumentation/comm[0]/frequencies/selected-real-frequency-mhz</node>
-   </chunk>
+   </chunk>-->
    <chunk>
     <name>com1-channel-width-khz</name>
     <type>string</type>
@@ -108,14 +108,14 @@
     <name>com2-frequency</name>
     <type>string</type>
     <format>COM2_FRQ=%s</format>
-    <node>/instrumentation/comm[1]/frequencies/selected-mhz-fmt</node>
+    <node>/instrumentation/comm[1]/frequencies/selected-mhz</node>
    </chunk>
-   <chunk>
+   <!--<chunk>
     <name>com2-frequency-real</name>
     <type>string</type>
     <format>COM2_FRQ=%s</format>
     <node>/instrumentation/comm[1]/frequencies/selected-real-frequency-mhz</node>
-   </chunk>
+   </chunk>-->
    <chunk>
     <name>com2-channel-width-khz</name>
     <type>string</type>
